@@ -1,0 +1,43 @@
+# Ignore os arquivos binários gerados pelo build
+bin/
+obj/
+
+# Ignore arquivos de configuração de IDEs e editores de texto
+.vs/
+.vscode/
+.idea/
+
+# Ignore arquivos de logs
+*.log
+
+# Ignore os arquivos de pacotes gerados pelo NuGet
+*.nupkg
+*.snupkg
+packages/
+
+# Ignore arquivos temporários de debug
+*.dbmdl
+
+# Ignore arquivos gerados durante o processo de build, como arquivos temporários de compilação
+*.user
+*.userosscache
+*.suo
+*.userprefs
+
+# Ignore os diretórios e arquivos de cache do ASP.NET
+ASP.NETCore/
+
+# Ignore o diretório do profiler de ASP.NET
+.vs2019/
+
+# Ignore arquivos de backup criados por editores de texto
+*~
+# Ignore pacotes baixados pelo NuGet
+.nuget/
+
+# Ignore a pasta de publicação
+publish/
+
+# Ignore qualquer arquivo de ambiente de produção que contenha dados sensíveis (ex: tokens, senhas)
+
+.env

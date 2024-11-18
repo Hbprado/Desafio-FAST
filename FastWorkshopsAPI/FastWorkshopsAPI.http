@@ -1,0 +1,6 @@
+@FastWorkshopsAPI_HostAddress = http://localhost:5192
+
+GET {{FastWorkshopsAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
